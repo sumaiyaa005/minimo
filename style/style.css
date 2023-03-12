@@ -4,22 +4,23 @@
 body{
     margin: 0;
     font-size: 16px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
 }
 
 /* header start */
 .container{
-    width: 85%;
+    width: 90%;
     margin:0 auto;
     overflow: hidden;
 }
 
 header{
-     padding: 2% 0;
+     padding: 2.4% 0 ;
 }
 
 .logo{
-    width: 7%;
+    width: 10%;
     float: left;
 
 }
@@ -40,6 +41,7 @@ header{
 
 .menu ul{
     float:right;
+    margin: 0;
 }
 
 .menu ul li{
@@ -48,18 +50,30 @@ header{
 }
 
 .menu ul li a{
-    text-decoration: none;
-    padding: 0px 15px;
     display: inline-block;
-    color: rgb(10, 10, 10);
+    margin: 0px 47px;
+    padding: 10px 2px;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .33s;
+    border-bottom: transparent;
+
 }
 
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
 /* header end */
 
 /* Banner Start */
 
 .banner{
-    padding:60px 0;
+    padding:45px 0;
 
 }
 
@@ -72,3 +86,37 @@ header{
     width:100%
 }
 /* Banner end */
+
+/* comment start */
+
+.comment{
+    padding:25px 0 45px;
+
+}
+
+.container2{
+    width: 78%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.commentText{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0 0 10px ;
+    color: #d2d1cf;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0 0 10px ;
+     
+}
+
+.pText{
+    padding: 0 0 4% ;
+    text-align: justify;
+
+}
